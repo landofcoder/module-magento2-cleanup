@@ -24,7 +24,7 @@
                 </field>
                 <field id="cron_expr" translate="label comment" sortOrder="30" showInDefault="1" showInWebsite="0" showInStore="0">
                     <label>Schedule</label>
-                    <comment>When should the process be scheduled (use cron syntax)?</comment>
+                    <comment>When should the process be scheduled (use cron syntax)? Example (every day at 2:00 am): 0 2 * * * </comment>
                     <depends>
                         <field id="is_enabled">1</field>
                     </depends>
