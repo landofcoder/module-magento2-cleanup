@@ -164,6 +164,16 @@
                     </depends>
                 </field>
             </group>
+            <group id="reports" type="text" sortOrder="50" translate="label" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>Log Reports</label>
+                <depends>
+                    <field id="lof_cleanup/general/is_enabled">1</field>
+                </depends>
+                <field id="is_enabled" type="select" sortOrder="160" translate="label comment" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Cleanup Event Reports and Customer Visitor Reports</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+            </group>
         </section>
     </system>
 </config>

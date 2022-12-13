@@ -23,6 +23,7 @@
                 <item name="customerQuotes" xsi:type="string">Lof\Cleanup\Model\Handler\QuotesCustomer</item>
                 <item name="guestQuotes" xsi:type="string">Lof\Cleanup\Model\Handler\QuotesGuest</item>
                 <item name="adminNotification" xsi:type="string">Lof\Cleanup\Model\Handler\AdminNotifications</item>
+                <item name="logReports" xsi:type="string">Lof\Cleanup\Model\Handler\LogReports</item>
             </argument>
         </arguments>
     </type>
@@ -30,6 +31,7 @@
         <arguments>
             <argument name="commands" xsi:type="array">
                 <item name="lofCleanupRun" xsi:type="object">Lof\Cleanup\Console\Command\CleanupCommand</item>
+                <item name="lofCleanupImages" xsi:type="object">Lof\Cleanup\Console\Command\CleanUnusedImage</item>
             </argument>
         </arguments>
     </type>

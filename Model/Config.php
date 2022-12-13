@@ -282,4 +282,17 @@ class Config
             ScopeInterface::SCOPE_STORE
         );
     }
+
+    /**
+     * Return if log reports should get cleaned up
+     *
+     * @return bool
+     */
+    public function isLogReportsCleanupEnabled()
+    {
+        return (bool)$this->scopeConfig->getValue(
+            'lof_cleanup/reports/is_enabled',
+            ScopeInterface::SCOPE_STORE
+        );
+    }
 }

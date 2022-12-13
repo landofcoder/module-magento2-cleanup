@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Lof_Cleanup::parent" title="Cleanup" module="Lof_Cleanup" sortOrder="100" resource="Lof_Cleanup::parent"/>
+		<add id="Lof_Cleanup::image" title="Clean UnUse Images" module="Lof_Cleanup" sortOrder="20" parent="Lof_Cleanup::parent" action="cleanup/image" resource="Lof_Cleanup::image"/>
+    </menu>
+</config>

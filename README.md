@@ -30,6 +30,11 @@ composer require landofcoder/module-cleanup
 ``` bin/magento module:enable Lof_Cleanup ```
 3. Install the module and rebuild the DI cache
 ``` bin/magento setup:upgrade ```
+4. Run all clean up via command
+``` bin/magento lof:cleanup:run ```
+
+5. Run clean up unused product images
+``` bin/magento lof:cleanup:clean-images ```
 
 ### How to configure
 

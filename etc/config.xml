@@ -31,6 +31,9 @@
                 <keep_days>7</keep_days>
                 <delete_notifications>0</delete_notifications>
             </adminnotifications>
+            <reports>
+                <is_enabled>0</is_enabled>
+            </reports>
         </lof_cleanup>
     </default>
 </config>
